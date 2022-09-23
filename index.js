@@ -106,18 +106,23 @@ learn.addEventListener("click", (e) => {
 
 const reOp = {
    root : null,
-   threshold : 0.5
+   threshold : [0,0.2,0.5]
 };
 
+
+
 const reCall = function(entries, observer) {
-   const [entry] = entries;
-   if(!entry.isIntersecting) return;
-   if(entry.isIntersecting){
-      entry.target.classList.remove("hid");
-   }else{
-      observer.unobserve(entry.target)
-   }
+   entries.forEach((entry) => {
+      if(!entry.isIntersecting) return;
+      if(entry.isIntersecting){
+         entry.target.classList.remove("hid");
+      }else{
+         observer.unobserve(entry.target)
+      }
+
+   } )
 }
+
 const reveal = new IntersectionObserver(reCall, reOp);
 
 one.forEach((mov) => {
@@ -127,7 +132,7 @@ one.forEach((mov) => {
 
 const reO = {
    root : null,
-   threshold :0.5
+   threshold : [0,0.2,0.5]
 };
 
 const reCal = function(entries, observer) {
