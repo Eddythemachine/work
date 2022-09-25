@@ -9,7 +9,6 @@ const header = document.querySelector(".header");
 const navLinks = document.querySelector(".nav-links");
 const one = document.querySelectorAll(".one");
 const allImg = document.querySelectorAll(`img[data-src]`);
-const learn = document.querySelector(".learn");
 const about = document.querySelector(".about");
 const allMenus = document.querySelectorAll(".menu")
 
@@ -86,16 +85,6 @@ navLinks.addEventListener("click", (e) => {
 });
 
 
-
-// ABOUT SECTION
-learn.addEventListener("click", (e) => {
-   e.preventDefault()
-      const sic = about.getBoundingClientRect();
-      window.scrollTo({
-         left: sic.left + window.pageXOffset,
-         top : sic.top + window.pageYOffset,
-         behavior : "smooth"})
-});
 
 
 

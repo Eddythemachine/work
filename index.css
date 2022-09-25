@@ -2,7 +2,7 @@
    padding: 0;
    margin: 0;
    box-sizing: border-box;
-   font-family: sans-serif;
+   font-family: 'Petit Formal Script', cursive;
 }
 
 :root{
@@ -366,7 +366,7 @@
 
 .about {
    z-index: 999;
-   font-family: sans-serif;
+   font-family: 'Petit Formal Script', cursive;
    border-top: 30px solid rgb(37, 37, 37);
    padding: 30px 50px;
    background: #000000;
@@ -385,7 +385,7 @@
 }
 
 .about .about-1 p {
-   font-family: sans-serif;
+   font-family: 'Petit Formal Script', cursive;
    color: var(--text-color);
    font-size: 20px;
    padding: 30px 50px;
@@ -1384,7 +1384,7 @@ header h4 {
 
 .about {
    z-index: 999;
-   font-family: sans-serif;
+   font-family: 'Petit Formal Script', cursive;
    border-top: 30px solid black;
    padding: 30px 10px;;
 }
@@ -1563,7 +1563,7 @@ header h4 {
 
 .about {
    z-index: 999;
-   font-family: sans-serif;
+   font-family: 'Petit Formal Script', cursive;
    border-top: 30px solid black;
    padding: 30px 10px;;
 }
