@@ -2,7 +2,8 @@
    padding: 0;
    margin: 0;
    box-sizing: border-box;
-   font-family: cursive;
+   font-family: 'Bebas Neue', cursive;
+   word-spacing: 2px;
 }
 
 :root{
@@ -385,7 +386,7 @@
 }
 
 .about .about-1 p {
-   font-family: 'Bebas Neue', cursive;
+   font-family: sans-serif;
    color: var(--text-color);
    font-size: 20px;
    padding: 30px 50px;
