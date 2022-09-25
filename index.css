@@ -2,7 +2,7 @@
    padding: 0;
    margin: 0;
    box-sizing: border-box;
-   font-family: 'Petit Formal Script', cursive;
+   font-family: cursive;
 }
 
 :root{
@@ -112,7 +112,7 @@
    margin-bottom: 0;
    text-shadow: 1px 3px 1px rgb(0, 0, 0);
    transition:  color 0.5s step-end, margin-bottom 0.5s linear;
-   font-family: 'Petit Formal Script', cursive;
+   font-family: cursive;
 }
 
 .intro p span:hover {
@@ -124,14 +124,14 @@
    color: var(--darker-text);
    font-size: 30px;
    font-weight: 900;
-   font-family: 'Petit Formal Script', cursive;
+   font-family:  cursive;
    color: var(--white-color);
    text-shadow: 1px 6px 1px rgb(0, 0, 0);
 }
 
 .intro h1 span {
    text-shadow: rgb(0, 0, 0) 1px 1px 1px;
-   font-family: 'Petit Formal Script', cursive;
+   font-family:  cursive;
    text-transform: uppercase;
    position: relative;
    color: var(--white-color);
@@ -304,7 +304,7 @@
 
 
 .intro button  {
-   font-family: 'Petit Formal Script', cursive;
+   font-family:  cursive;
    padding: 18px 10px;
    font-size: 18px;
    background:var(--purple-text);
@@ -366,7 +366,7 @@
 
 .about {
    z-index: 999;
-   font-family: 'Petit Formal Script', cursive;
+   font-family: cursive;
    border-top: 30px solid rgb(37, 37, 37);
    padding: 30px 50px;
    background: #000000;
@@ -385,7 +385,7 @@
 }
 
 .about .about-1 p {
-   font-family: 'Petit Formal Script', cursive;
+   font-family:  cursive;
    color: var(--text-color);
    font-size: 20px;
    padding: 30px 50px;
@@ -1384,7 +1384,7 @@ header h4 {
 
 .about {
    z-index: 999;
-   font-family: 'Petit Formal Script', cursive;
+   font-family:  cursive;
    border-top: 30px solid black;
    padding: 30px 10px;;
 }
@@ -1563,7 +1563,7 @@ header h4 {
 
 .about {
    z-index: 999;
-   font-family: 'Petit Formal Script', cursive;
+   font-family:  cursive;
    border-top: 30px solid black;
    padding: 30px 10px;;
 }
